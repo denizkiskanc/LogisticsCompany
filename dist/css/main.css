@@ -369,26 +369,30 @@ nav .navbar-brand {
   font-size: 16px;
 }
 
-#contact, .contact {
+#contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-#contact .container2, .contact .container2 {
+#contact .container2 {
   margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#contact .container2 .content, .contact .container2 .content {
+#contact .container2 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,26 +400,26 @@ nav .navbar-brand {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
+  margin-left: 80px;
 }
 
-#contact .container2 .content .title .title-1, .contact .container2 .content .title .title-1 {
+#contact .container2 .content .title .title-1 {
   color: #0dcaf0;
 }
 
-#contact .container2 .content .title .title-2, .contact .container2 .content .title .title-2 {
+#contact .container2 .content .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 60%;
 }
 
-#contact .container2 .content .title .title-3, .contact .container2 .content .title .title-3 {
+#contact .container2 .content .title .title-3 {
   color: #828282;
   width: 65%;
   margin-top: 2%;
 }
 
-#contact .container2 .content .content-below, .contact .container2 .content .content-below {
+#contact .container2 .content .content-below {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,7 +427,7 @@ nav .navbar-brand {
   margin-top: 4%;
 }
 
-#contact .container2 .content .content-below .call, .contact .container2 .content .content-below .call {
+#contact .container2 .content .content-below .call {
   margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,6 +437,60 @@ nav .navbar-brand {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 2%;
+}
+
+#contact .container2 form {
+  background-color: #f9e2e7;
+  padding: 10%;
+  width: 600px;
+}
+
+#contact .container2 form textarea {
+  resize: none;
+}
+
+#contact .container2 form button {
+  width: 100%;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#members, .members {
+  margin-top: 150px;
+}
+
+#members .title .title-1, .members .title .title-1 {
+  color: #0dcaf0;
+  text-align: center;
+}
+
+#members .title .title-2, .members .title .title-2 {
+  font-weight: 900;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+}
+
+#members .cards, .members .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#members .cards .card, .members .cards .card {
+  margin: 1%;
+  background-color: #f8f9fa;
+}
+
+#members .cards .card img, .members .cards .card img {
+  padding: 5%;
+}
+
+#members .cards .card p, .members .cards .card p {
+  color: #828282;
 }
 
 @media screen and (max-width: 1200px) {
@@ -550,6 +608,27 @@ nav .navbar-brand {
   #features .container1 .content .content-inside .global .global-2, #features .container1 .content .content-inside .global .truck-2, #features .container1 .content .content-inside .truck .global-2, #features .container1 .content .content-inside .truck .truck-2, .features .container1 .content .content-inside .global .global-2, .features .container1 .content .content-inside .global .truck-2, .features .container1 .content .content-inside .truck .global-2, .features .container1 .content .content-inside .truck .truck-2 {
     width: 85%;
     color: #828282;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #contact .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact .container2 .content .content-below {
+    margin-bottom: 5%;
+  }
+  #contact .container2 form {
+    padding: 5%;
+    width: 500px;
+    margin-top: 5%;
+    margin: auto;
   }
 }
 
