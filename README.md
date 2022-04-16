@@ -2,4 +2,4 @@
 
 <b>DEMO<b>
 
- [Logistics Company](https://denizkiskanc.github.io/LogisticsCompany/logisticscompany)
+ [Logistics Company](https://denizkiskanc.github.io/LogisticsCompany/Logisticscompany)
