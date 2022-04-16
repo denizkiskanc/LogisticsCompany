@@ -493,6 +493,34 @@ nav .navbar-brand {
   color: #828282;
 }
 
+#footer {
+  background-color: #03203c;
+  color: #fff;
+  margin-top: 250px;
+}
+
+#footer .container .row .col-md-3 p {
+  color: #fff;
+}
+
+#footer .container .row .col-md-3 .list-unstyled a {
+  color: #fff;
+}
+
+#footer .container .footer-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-copyright a {
+  color: #3f3e3e;
+}
+
+#footer .container .row .col-md-3 .list-unstyled a, .footer-copyright a:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
   #home .carousel-inner .carousel-item img {
     -webkit-filter: brightness(50%);

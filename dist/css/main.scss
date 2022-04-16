@@ -550,6 +550,36 @@ img{
 					}
 				}
 		}
+#footer {
+	background-color: #03203c;
+	color: #fff;
+	margin-top: 250px;
+	
+	
+	.container {
+	   .row .col-md-3 {
+		p {
+			color: #fff;
+		}
+	
+		.list-unstyled a {
+			color: #fff;
+		}
+	}
+
+	 .footer-input{
+
+		display: flex;
+	 }
+	}
+}
+	.footer-copyright a {
+	color: rgb(63, 62, 62);
+	}
+	
+	#footer .container .row .col-md-3 .list-unstyled a, .footer-copyright a:hover {
+	text-decoration: none;
+	}
 		
 @media screen and (max-width: 1200px) {
 
@@ -740,7 +770,6 @@ img{
 
 		form{
 
-		
 			padding: 5%;
 			width: 500px;
 			margin-top: 5%;
@@ -749,8 +778,6 @@ img{
 		}
 		}
 }
-
-
 
 	@media screen and (max-width: 800px) {
 
@@ -877,12 +904,7 @@ img{
 		
 				
 			}
-			}
-		
-			
+			}	
 		}
 		}
-		
-		
-
 	}
