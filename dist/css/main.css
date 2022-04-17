@@ -12,55 +12,55 @@ html {
   overflow-y: scroll;
 }
 
-nav .navbar-brand {
+body main header nav .navbar-brand {
   letter-spacing: 3px;
   font-size: 25px;
 }
 
-#home .carousel-inner .carousel-item {
+body main #home .carousel-inner .carousel-item {
   height: 90vh;
   min-height: 300px;
   width: 100%;
 }
 
-#home .carousel-inner .carousel-item img {
+body main #home .carousel-inner .carousel-item img {
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
 }
 
-#home .carousel-inner .carousel-item .carousel-caption {
+body main #home .carousel-inner .carousel-item .carousel-caption {
   text-align: left;
   margin-bottom: 150px;
 }
 
-#home .carousel-inner .carousel-item .carousel-caption h1 {
+body main #home .carousel-inner .carousel-item .carousel-caption h1 {
   font-size: 45px;
   font-weight: 900;
   margin-top: 25px;
   width: 500px;
 }
 
-#home .carousel-inner .carousel-item .carousel-caption h1 span {
+body main #home .carousel-inner .carousel-item .carousel-caption h1 span {
   color: #dc3545;
 }
 
-#home .carousel-inner .carousel-item .carousel-caption p {
+body main #home .carousel-inner .carousel-item .carousel-caption p {
   margin: auto;
   font-size: 18px;
   line-height: 1.5;
 }
 
-#about, .about {
+body main #about, body main .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#about .container1 .img, .about .container1 .img {
+body main #about .container1 .img, body main .about .container1 .img {
   margin-top: 150px;
 }
 
-#about .container1 .content, .about .container1 .content {
+body main #about .container1 .content, body main .about .container1 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,43 +72,43 @@ nav .navbar-brand {
   margin-left: 80px;
 }
 
-#about .container1 .content .title .title-1, .about .container1 .content .title .title-1 {
+body main #about .container1 .content .title .title-1, body main .about .container1 .content .title .title-1 {
   color: #0dcaf0;
 }
 
-#about .container1 .content .title .title-2, .about .container1 .content .title .title-2 {
+body main #about .container1 .content .title .title-2, body main .about .container1 .content .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 50%;
 }
 
-#about .container1 .content .title .title-3, .about .container1 .content .title .title-3 {
+body main #about .container1 .content .title .title-3, body main .about .container1 .content .title .title-3 {
   color: #828282;
   width: 75%;
   margin-top: 2%;
 }
 
-#about .container1 .content .content-inside, .about .container1 .content .content-inside {
+body main #about .container1 .content .content-inside, body main .about .container1 .content .content-inside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
 }
 
-#about .container1 .content .content-inside .global svg, #about .container1 .content .content-inside .truck svg, .about .container1 .content .content-inside .global svg, .about .container1 .content .content-inside .truck svg {
+body main #about .container1 .content .content-inside .global svg, body main #about .container1 .content .content-inside .truck svg, body main .about .container1 .content .content-inside .global svg, body main .about .container1 .content .content-inside .truck svg {
   color: #dc3545;
 }
 
-#about .container1 .content .content-inside .global .global-1, #about .container1 .content .content-inside .global .truck-1, #about .container1 .content .content-inside .truck .global-1, #about .container1 .content .content-inside .truck .truck-1, .about .container1 .content .content-inside .global .global-1, .about .container1 .content .content-inside .global .truck-1, .about .container1 .content .content-inside .truck .global-1, .about .container1 .content .content-inside .truck .truck-1 {
+body main #about .container1 .content .content-inside .global .global-1, body main #about .container1 .content .content-inside .global .truck-1, body main #about .container1 .content .content-inside .truck .global-1, body main #about .container1 .content .content-inside .truck .truck-1, body main .about .container1 .content .content-inside .global .global-1, body main .about .container1 .content .content-inside .global .truck-1, body main .about .container1 .content .content-inside .truck .global-1, body main .about .container1 .content .content-inside .truck .truck-1 {
   font-weight: 700;
 }
 
-#about .container1 .content .content-inside .global .global-2, #about .container1 .content .content-inside .global .truck-2, #about .container1 .content .content-inside .truck .global-2, #about .container1 .content .content-inside .truck .truck-2, .about .container1 .content .content-inside .global .global-2, .about .container1 .content .content-inside .global .truck-2, .about .container1 .content .content-inside .truck .global-2, .about .container1 .content .content-inside .truck .truck-2 {
+body main #about .container1 .content .content-inside .global .global-2, body main #about .container1 .content .content-inside .global .truck-2, body main #about .container1 .content .content-inside .truck .global-2, body main #about .container1 .content .content-inside .truck .truck-2, body main .about .container1 .content .content-inside .global .global-2, body main .about .container1 .content .content-inside .global .truck-2, body main .about .container1 .content .content-inside .truck .global-2, body main .about .container1 .content .content-inside .truck .truck-2 {
   width: 65%;
   color: #828282;
 }
 
-#management, .management {
+body main #management, body main .management {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@ nav .navbar-brand {
           justify-content: center;
 }
 
-#management .container2, .management .container2 {
+body main #management .container2, body main .management .container2 {
   margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,7 +127,7 @@ nav .navbar-brand {
           justify-content: center;
 }
 
-#management .container2 .content, .management .container2 .content {
+body main #management .container2 .content, body main .management .container2 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,23 +138,23 @@ nav .navbar-brand {
   width: 50%;
 }
 
-#management .container2 .content .title .title-1, .management .container2 .content .title .title-1 {
+body main #management .container2 .content .title .title-1, body main .management .container2 .content .title .title-1 {
   color: #0dcaf0;
 }
 
-#management .container2 .content .title .title-2, .management .container2 .content .title .title-2 {
+body main #management .container2 .content .title .title-2, body main .management .container2 .content .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 60%;
 }
 
-#management .container2 .content .title .title-3, .management .container2 .content .title .title-3 {
+body main #management .container2 .content .title .title-3, body main .management .container2 .content .title .title-3 {
   color: #828282;
   width: 65%;
   margin-top: 2%;
 }
 
-#management .container2 .content .content-below, .management .container2 .content .content-below {
+body main #management .container2 .content .content-below, body main .management .container2 .content .content-below {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,7 +162,7 @@ nav .navbar-brand {
   margin-top: 4%;
 }
 
-#management .container2 .content .content-below .call, .management .container2 .content .content-below .call {
+body main #management .container2 .content .content-below .call, body main .management .container2 .content .content-below .call {
   margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,29 +174,29 @@ nav .navbar-brand {
   margin-left: 2%;
 }
 
-#management .container2 .card-1 .number, .management .container2 .card-1 .number {
+body main #management .container2 .card-1 .number, body main .management .container2 .card-1 .number {
   font-size: 20px;
   margin-top: 5%;
 }
 
-#management .container2 .card-1 p, .management .container2 .card-1 p {
+body main #management .container2 .card-1 p, body main .management .container2 .card-1 p {
   line-height: 0.8;
 }
 
-#management .container2 .card-1 .card-1-1, .management .container2 .card-1 .card-1-1 {
+body main #management .container2 .card-1 .card-1-1, body main .management .container2 .card-1 .card-1-1 {
   background-color: #dc3545;
   color: #fff;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-#management .container2 .card-1 .card-1-2, .management .container2 .card-1 .card-1-2 {
+body main #management .container2 .card-1 .card-1-2, body main .management .container2 .card-1 .card-1-2 {
   background-color: #0dcaf0;
   color: #fff;
   padding: 20px;
 }
 
-#management .container2 .card-2 .card-2-1, .management .container2 .card-2 .card-2-1 {
+body main #management .container2 .card-2 .card-2-1, body main .management .container2 .card-2 .card-2-1 {
   background-color: #2d691e;
   color: #fff;
   padding: 20px;
@@ -205,32 +205,32 @@ nav .navbar-brand {
   margin-left: 20px;
 }
 
-#management .container2 .card-2 .card-2-1 .number, .management .container2 .card-2 .card-2-1 .number {
+body main #management .container2 .card-2 .card-2-1 .number, body main .management .container2 .card-2 .card-2-1 .number {
   font-size: 20px;
   margin-top: 5%;
 }
 
-#management .container2 .card-2 .card-2-1 p, .management .container2 .card-2 .card-2-1 p {
+body main #management .container2 .card-2 .card-2-1 p, body main .management .container2 .card-2 .card-2-1 p {
   line-height: 0.8;
 }
 
-#services, .services {
+body main #services, body main .services {
   margin-top: 150px;
 }
 
-#services .title .title-1, .services .title .title-1 {
+body main #services .title .title-1, body main .services .title .title-1 {
   color: #0dcaf0;
   text-align: center;
 }
 
-#services .title .title-2, .services .title .title-2 {
+body main #services .title .title-2, body main .services .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 100%;
   text-align: center;
 }
 
-#services .cards, .services .cards {
+body main #services .cards, body main .services .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,30 +239,30 @@ nav .navbar-brand {
           justify-content: center;
 }
 
-#services .cards .card, .services .cards .card {
+body main #services .cards .card, body main .services .cards .card {
   margin: 1%;
   background-color: #f8f9fa;
 }
 
-#services .cards .card img, .services .cards .card img {
+body main #services .cards .card img, body main .services .cards .card img {
   padding: 5%;
 }
 
-#services .cards .card p, .services .cards .card p {
+body main #services .cards .card p, body main .services .cards .card p {
   color: #828282;
 }
 
-#features, .features {
+body main #features, body main .features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#features .container1 .img, .features .container1 .img {
+body main #features .container1 .img, body main .features .container1 .img {
   margin-top: 150px;
 }
 
-#features .container1 .content, .features .container1 .content {
+body main #features .container1 .content, body main .features .container1 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,71 +274,71 @@ nav .navbar-brand {
   margin-left: 80px;
 }
 
-#features .container1 .content .title .title-1, .features .container1 .content .title .title-1 {
+body main #features .container1 .content .title .title-1, body main .features .container1 .content .title .title-1 {
   color: #0dcaf0;
 }
 
-#features .container1 .content .title .title-2, .features .container1 .content .title .title-2 {
+body main #features .container1 .content .title .title-2, body main .features .container1 .content .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 50%;
 }
 
-#features .container1 .content .title .title-3, .features .container1 .content .title .title-3 {
+body main #features .container1 .content .title .title-3, body main .features .container1 .content .title .title-3 {
   color: #828282;
   width: 75%;
   margin-top: 2%;
 }
 
-#features .container1 .content .content-inside, .features .container1 .content .content-inside {
+body main #features .container1 .content .content-inside, body main .features .container1 .content .content-inside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
 }
 
-#features .container1 .content .content-inside .global, #features .container1 .content .content-inside .truck, .features .container1 .content .content-inside .global, .features .container1 .content .content-inside .truck {
+body main #features .container1 .content .content-inside .global, body main #features .container1 .content .content-inside .truck, body main .features .container1 .content .content-inside .global, body main .features .container1 .content .content-inside .truck {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#features .container1 .content .content-inside .global p, #features .container1 .content .content-inside .truck p, .features .container1 .content .content-inside .global p, .features .container1 .content .content-inside .truck p {
+body main #features .container1 .content .content-inside .global p, body main #features .container1 .content .content-inside .truck p, body main .features .container1 .content .content-inside .global p, body main .features .container1 .content .content-inside .truck p {
   font-size: 13px;
 }
 
-#features .container1 .content .content-inside .global svg, #features .container1 .content .content-inside .truck svg, .features .container1 .content .content-inside .global svg, .features .container1 .content .content-inside .truck svg {
+body main #features .container1 .content .content-inside .global svg, body main #features .container1 .content .content-inside .truck svg, body main .features .container1 .content .content-inside .global svg, body main .features .container1 .content .content-inside .truck svg {
   color: #dc3545;
   margin-top: 2%;
 }
 
-#features .container1 .content .content-inside .global .global-1, #features .container1 .content .content-inside .global .truck-1, #features .container1 .content .content-inside .truck .global-1, #features .container1 .content .content-inside .truck .truck-1, .features .container1 .content .content-inside .global .global-1, .features .container1 .content .content-inside .global .truck-1, .features .container1 .content .content-inside .truck .global-1, .features .container1 .content .content-inside .truck .truck-1 {
+body main #features .container1 .content .content-inside .global .global-1, body main #features .container1 .content .content-inside .global .truck-1, body main #features .container1 .content .content-inside .truck .global-1, body main #features .container1 .content .content-inside .truck .truck-1, body main .features .container1 .content .content-inside .global .global-1, body main .features .container1 .content .content-inside .global .truck-1, body main .features .container1 .content .content-inside .truck .global-1, body main .features .container1 .content .content-inside .truck .truck-1 {
   font-weight: 700;
 }
 
-#features .container1 .content .content-inside .global .global-2, #features .container1 .content .content-inside .global .truck-2, #features .container1 .content .content-inside .truck .global-2, #features .container1 .content .content-inside .truck .truck-2, .features .container1 .content .content-inside .global .global-2, .features .container1 .content .content-inside .global .truck-2, .features .container1 .content .content-inside .truck .global-2, .features .container1 .content .content-inside .truck .truck-2 {
+body main #features .container1 .content .content-inside .global .global-2, body main #features .container1 .content .content-inside .global .truck-2, body main #features .container1 .content .content-inside .truck .global-2, body main #features .container1 .content .content-inside .truck .truck-2, body main .features .container1 .content .content-inside .global .global-2, body main .features .container1 .content .content-inside .global .truck-2, body main .features .container1 .content .content-inside .truck .global-2, body main .features .container1 .content .content-inside .truck .truck-2 {
   width: 65%;
   color: #828282;
 }
 
-#pricing, .pricing {
+body main #pricing, body main .pricing {
   margin-top: 150px;
 }
 
-#pricing .title, .pricing .title {
+body main #pricing .title, body main .pricing .title {
   text-align: center;
 }
 
-#pricing .title .title-1, .pricing .title .title-1 {
+body main #pricing .title .title-1, body main .pricing .title .title-1 {
   color: #0dcaf0;
 }
 
-#pricing .title .title-2, .pricing .title .title-2 {
+body main #pricing .title .title-2, body main .pricing .title .title-2 {
   font-weight: 900;
   font-size: 35px;
 }
 
-#pricing .cards, .pricing .cards {
+body main #pricing .cards, body main .pricing .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,29 +347,29 @@ nav .navbar-brand {
           justify-content: center;
 }
 
-#pricing .cards .card, .pricing .cards .card {
+body main #pricing .cards .card, body main .pricing .cards .card {
   margin: 1%;
   background-color: #f8f9fa;
 }
 
-#pricing .cards .card p, .pricing .cards .card p {
+body main #pricing .cards .card p, body main .pricing .cards .card p {
   color: #828282;
   line-height: 0.8;
 }
 
-#pricing .cards .card .package, .pricing .cards .card .package {
+body main #pricing .cards .card .package, body main .pricing .cards .card .package {
   color: #dc3545;
 }
 
-#pricing .cards .card h3, .pricing .cards .card h3 {
+body main #pricing .cards .card h3, body main .pricing .cards .card h3 {
   margin-bottom: 10%;
 }
 
-#pricing .cards .card h3 span, .pricing .cards .card h3 span {
+body main #pricing .cards .card h3 span, body main .pricing .cards .card h3 span {
   font-size: 16px;
 }
 
-#contact {
+body main #contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +383,7 @@ nav .navbar-brand {
       flex-wrap: wrap;
 }
 
-#contact .container2 {
+body main #contact .container2 {
   margin-top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,7 +392,7 @@ nav .navbar-brand {
       justify-content: space-around;
 }
 
-#contact .container2 .content {
+body main #contact .container2 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,23 +403,23 @@ nav .navbar-brand {
   margin-left: 80px;
 }
 
-#contact .container2 .content .title .title-1 {
+body main #contact .container2 .content .title .title-1 {
   color: #0dcaf0;
 }
 
-#contact .container2 .content .title .title-2 {
+body main #contact .container2 .content .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 60%;
 }
 
-#contact .container2 .content .title .title-3 {
+body main #contact .container2 .content .title .title-3 {
   color: #828282;
   width: 65%;
   margin-top: 2%;
 }
 
-#contact .container2 .content .content-below {
+body main #contact .container2 .content .content-below {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,7 +427,7 @@ nav .navbar-brand {
   margin-top: 4%;
 }
 
-#contact .container2 .content .content-below .call {
+body main #contact .container2 .content .content-below .call {
   margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,39 +439,39 @@ nav .navbar-brand {
   margin-left: 2%;
 }
 
-#contact .container2 form {
+body main #contact .container2 form {
   background-color: #f9e2e7;
   padding: 10%;
   width: 600px;
 }
 
-#contact .container2 form textarea {
+body main #contact .container2 form textarea {
   resize: none;
 }
 
-#contact .container2 form button {
+body main #contact .container2 form button {
   width: 100%;
   background-color: #dc3545;
   color: #fff;
 }
 
-#members, .members {
+body main #members, body main .members {
   margin-top: 150px;
 }
 
-#members .title .title-1, .members .title .title-1 {
+body main #members .title .title-1, body main .members .title .title-1 {
   color: #0dcaf0;
   text-align: center;
 }
 
-#members .title .title-2, .members .title .title-2 {
+body main #members .title .title-2, body main .members .title .title-2 {
   font-weight: 900;
   font-size: 35px;
   width: 100%;
   text-align: center;
 }
 
-#members .cards, .members .cards {
+body main #members .cards, body main .members .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,58 +480,54 @@ nav .navbar-brand {
           justify-content: center;
 }
 
-#members .cards .card, .members .cards .card {
+body main #members .cards .card, body main .members .cards .card {
   margin: 1%;
   background-color: #f8f9fa;
 }
 
-#members .cards .card img, .members .cards .card img {
+body main #members .cards .card img, body main .members .cards .card img {
   padding: 5%;
 }
 
-#members .cards .card p, .members .cards .card p {
+body main #members .cards .card p, body main .members .cards .card p {
   color: #828282;
 }
 
-#footer {
+body main #footer {
   background-color: #03203c;
   color: #fff;
   margin-top: 250px;
 }
 
-#footer .container .row .col-md-3 p {
+body main #footer .container .row .col-md-3 p {
   color: #fff;
+  font-weight: 100;
 }
 
-#footer .container .row .col-md-3 .list-unstyled a {
+body main #footer .container .row .col-md-3 .list-unstyled a {
   color: #fff;
+  font-weight: 100;
 }
 
-#footer .container .footer-input {
+body main #footer .container .row .col-md-3 .list-unstyled a:hover {
+  text-decoration: none;
+  color: #dc3545;
+}
+
+body main #footer .container .footer-input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-copyright a {
-  color: #3f3e3e;
-}
-
-#footer .container .row .col-md-3 .list-unstyled a, .footer-copyright a:hover {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 1200px) {
-  #home .carousel-inner .carousel-item img {
-    -webkit-filter: brightness(50%);
-            filter: brightness(50%);
+  body main #home .carousel-inner .carousel-item img {
     height: 85vh;
   }
-  #home .carousel-inner .carousel-item .carousel-caption {
-    text-align: left;
-    margin-bottom: 100px;
+  body main #home .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 90px;
   }
-  #about, .about {
+  body main #about, body main .about {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -540,12 +536,12 @@ nav .navbar-brand {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #about .container1 .img, .about .container1 .img {
+  body main #about .container1 .img, body main .about .container1 .img {
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
   }
-  #about .container1 .content, .about .container1 .content {
+  body main #about .container1 .content, body main .about .container1 .content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -556,35 +552,35 @@ nav .navbar-brand {
     margin-top: 70px;
     margin-left: 50px;
   }
-  #about .container1 .content .title .title-1, .about .container1 .content .title .title-1 {
+  body main #about .container1 .content .title .title-1, body main .about .container1 .content .title .title-1 {
     color: #0dcaf0;
   }
-  #about .container1 .content .title .title-2, .about .container1 .content .title .title-2 {
+  body main #about .container1 .content .title .title-2, body main .about .container1 .content .title .title-2 {
     font-weight: 900;
     font-size: 35px;
     width: 100%;
   }
-  #about .container1 .content .title .title-3, .about .container1 .content .title .title-3 {
+  body main #about .container1 .content .title .title-3, body main .about .container1 .content .title .title-3 {
     color: #828282;
     width: 85%;
   }
-  #about .container1 .content .content-inside, .about .container1 .content .content-inside {
+  body main #about .container1 .content .content-inside, body main .about .container1 .content .content-inside {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
   }
-  #about .container1 .content .content-inside .global svg, #about .container1 .content .content-inside .truck svg, .about .container1 .content .content-inside .global svg, .about .container1 .content .content-inside .truck svg {
+  body main #about .container1 .content .content-inside .global svg, body main #about .container1 .content .content-inside .truck svg, body main .about .container1 .content .content-inside .global svg, body main .about .container1 .content .content-inside .truck svg {
     color: #dc3545;
   }
-  #about .container1 .content .content-inside .global .global-1, #about .container1 .content .content-inside .global .truck-1, #about .container1 .content .content-inside .truck .global-1, #about .container1 .content .content-inside .truck .truck-1, .about .container1 .content .content-inside .global .global-1, .about .container1 .content .content-inside .global .truck-1, .about .container1 .content .content-inside .truck .global-1, .about .container1 .content .content-inside .truck .truck-1 {
+  body main #about .container1 .content .content-inside .global .global-1, body main #about .container1 .content .content-inside .global .truck-1, body main #about .container1 .content .content-inside .truck .global-1, body main #about .container1 .content .content-inside .truck .truck-1, body main .about .container1 .content .content-inside .global .global-1, body main .about .container1 .content .content-inside .global .truck-1, body main .about .container1 .content .content-inside .truck .global-1, body main .about .container1 .content .content-inside .truck .truck-1 {
     font-weight: 700;
   }
-  #about .container1 .content .content-inside .global .global-2, #about .container1 .content .content-inside .global .truck-2, #about .container1 .content .content-inside .truck .global-2, #about .container1 .content .content-inside .truck .truck-2, .about .container1 .content .content-inside .global .global-2, .about .container1 .content .content-inside .global .truck-2, .about .container1 .content .content-inside .truck .global-2, .about .container1 .content .content-inside .truck .truck-2 {
+  body main #about .container1 .content .content-inside .global .global-2, body main #about .container1 .content .content-inside .global .truck-2, body main #about .container1 .content .content-inside .truck .global-2, body main #about .container1 .content .content-inside .truck .truck-2, body main .about .container1 .content .content-inside .global .global-2, body main .about .container1 .content .content-inside .global .truck-2, body main .about .container1 .content .content-inside .truck .global-2, body main .about .container1 .content .content-inside .truck .truck-2 {
     width: 85%;
     color: #828282;
   }
-  #features, .features {
+  body main #features, body main .features {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -593,12 +589,12 @@ nav .navbar-brand {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #features .container1 .img, .features .container1 .img {
+  body main #features .container1 .img, body main .features .container1 .img {
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
   }
-  #features .container1 .content, .features .container1 .content {
+  body main #features .container1 .content, body main .features .container1 .content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -609,38 +605,38 @@ nav .navbar-brand {
     margin-top: 70px;
     margin-left: 50px;
   }
-  #features .container1 .content .title .title-1, .features .container1 .content .title .title-1 {
+  body main #features .container1 .content .title .title-1, body main .features .container1 .content .title .title-1 {
     color: #0dcaf0;
   }
-  #features .container1 .content .title .title-2, .features .container1 .content .title .title-2 {
+  body main #features .container1 .content .title .title-2, body main .features .container1 .content .title .title-2 {
     font-weight: 900;
     font-size: 35px;
     width: 100%;
   }
-  #features .container1 .content .title .title-3, .features .container1 .content .title .title-3 {
+  body main #features .container1 .content .title .title-3, body main .features .container1 .content .title .title-3 {
     color: #828282;
     width: 85%;
   }
-  #features .container1 .content .content-inside, .features .container1 .content .content-inside {
+  body main #features .container1 .content .content-inside, body main .features .container1 .content .content-inside {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
   }
-  #features .container1 .content .content-inside .global svg, #features .container1 .content .content-inside .truck svg, .features .container1 .content .content-inside .global svg, .features .container1 .content .content-inside .truck svg {
+  body main #features .container1 .content .content-inside .global svg, body main #features .container1 .content .content-inside .truck svg, body main .features .container1 .content .content-inside .global svg, body main .features .container1 .content .content-inside .truck svg {
     color: #dc3545;
   }
-  #features .container1 .content .content-inside .global .global-1, #features .container1 .content .content-inside .global .truck-1, #features .container1 .content .content-inside .truck .global-1, #features .container1 .content .content-inside .truck .truck-1, .features .container1 .content .content-inside .global .global-1, .features .container1 .content .content-inside .global .truck-1, .features .container1 .content .content-inside .truck .global-1, .features .container1 .content .content-inside .truck .truck-1 {
+  body main #features .container1 .content .content-inside .global .global-1, body main #features .container1 .content .content-inside .global .truck-1, body main #features .container1 .content .content-inside .truck .global-1, body main #features .container1 .content .content-inside .truck .truck-1, body main .features .container1 .content .content-inside .global .global-1, body main .features .container1 .content .content-inside .global .truck-1, body main .features .container1 .content .content-inside .truck .global-1, body main .features .container1 .content .content-inside .truck .truck-1 {
     font-weight: 700;
   }
-  #features .container1 .content .content-inside .global .global-2, #features .container1 .content .content-inside .global .truck-2, #features .container1 .content .content-inside .truck .global-2, #features .container1 .content .content-inside .truck .truck-2, .features .container1 .content .content-inside .global .global-2, .features .container1 .content .content-inside .global .truck-2, .features .container1 .content .content-inside .truck .global-2, .features .container1 .content .content-inside .truck .truck-2 {
+  body main #features .container1 .content .content-inside .global .global-2, body main #features .container1 .content .content-inside .global .truck-2, body main #features .container1 .content .content-inside .truck .global-2, body main #features .container1 .content .content-inside .truck .truck-2, body main .features .container1 .content .content-inside .global .global-2, body main .features .container1 .content .content-inside .global .truck-2, body main .features .container1 .content .content-inside .truck .global-2, body main .features .container1 .content .content-inside .truck .truck-2 {
     width: 85%;
     color: #828282;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  #contact .container2 {
+  body main #contact .container2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -649,10 +645,10 @@ nav .navbar-brand {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #contact .container2 .content .content-below {
+  body main #contact .container2 .content .content-below {
     margin-bottom: 5%;
   }
-  #contact .container2 form {
+  body main #contact .container2 form {
     padding: 5%;
     width: 500px;
     margin-top: 5%;
@@ -661,7 +657,7 @@ nav .navbar-brand {
 }
 
 @media screen and (max-width: 800px) {
-  #management, .management {
+  body main #management, body main .management {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -673,13 +669,13 @@ nav .navbar-brand {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #management .container2, .management .container2 {
+  body main #management .container2, body main .management .container2 {
     margin-top: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  #management .container2 .content, .management .container2 .content {
+  body main #management .container2 .content, body main .management .container2 .content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -690,30 +686,30 @@ nav .navbar-brand {
     width: 100%;
     margin-left: 50px;
   }
-  #management .container2 .content .title, .management .container2 .content .title {
+  body main #management .container2 .content .title, body main .management .container2 .content .title {
     margin: 0 auto;
   }
-  #management .container2 .content .title .title-1, .management .container2 .content .title .title-1 {
+  body main #management .container2 .content .title .title-1, body main .management .container2 .content .title .title-1 {
     color: #0dcaf0;
   }
-  #management .container2 .content .title .title-2, .management .container2 .content .title .title-2 {
+  body main #management .container2 .content .title .title-2, body main .management .container2 .content .title .title-2 {
     font-weight: 900;
     font-size: 35px;
     width: 85%;
   }
-  #management .container2 .content .title .title-3, .management .container2 .content .title .title-3 {
+  body main #management .container2 .content .title .title-3, body main .management .container2 .content .title .title-3 {
     color: #828282;
     width: 85%;
     margin-top: 2%;
   }
-  #management .container2 .content .content-below, .management .container2 .content .content-below {
+  body main #management .container2 .content .content-below, body main .management .container2 .content .content-below {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     line-height: 0;
     margin-top: 4%;
   }
-  #management .container2 .content .content-below .call, .management .container2 .content .content-below .call {
+  body main #management .container2 .content .content-below .call, body main .management .container2 .content .content-below .call {
     margin-top: 6px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -724,7 +720,7 @@ nav .navbar-brand {
             flex-direction: column;
     margin-left: 2%;
   }
-  #management .container2 .card-1, .management .container2 .card-1 {
+  body main #management .container2 .card-1, body main .management .container2 .card-1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -737,27 +733,27 @@ nav .navbar-brand {
             justify-content: center;
     margin-top: 10%;
   }
-  #management .container2 .card-1 .number, .management .container2 .card-1 .number {
+  body main #management .container2 .card-1 .number, body main .management .container2 .card-1 .number {
     font-size: 20px;
     margin-top: 5%;
   }
-  #management .container2 .card-1 p, .management .container2 .card-1 p {
+  body main #management .container2 .card-1 p, body main .management .container2 .card-1 p {
     line-height: 0.8;
   }
-  #management .container2 .card-1 .card-1-1, .management .container2 .card-1 .card-1-1 {
+  body main #management .container2 .card-1 .card-1-1, body main .management .container2 .card-1 .card-1-1 {
     background-color: #dc3545;
     color: #fff;
     padding: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
   }
-  #management .container2 .card-1 .card-1-2, .management .container2 .card-1 .card-1-2 {
+  body main #management .container2 .card-1 .card-1-2, body main .management .container2 .card-1 .card-1-2 {
     background-color: #0dcaf0;
     color: #fff;
     padding: 20px;
     margin-bottom: 10px;
   }
-  #management .container2 .card-2, .management .container2 .card-2 {
+  body main #management .container2 .card-2, body main .management .container2 .card-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -769,14 +765,14 @@ nav .navbar-brand {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #management .container2 .card-2 .card-2-1, .management .container2 .card-2 .card-2-1 {
+  body main #management .container2 .card-2 .card-2-1, body main .management .container2 .card-2 .card-2-1 {
     background-color: #2d691e;
     color: #fff;
     padding: 20px;
     margin-top: 0px;
     margin-left: 0px;
   }
-  #management .container2 .card-2 .card-2-1 .number, .management .container2 .card-2 .card-2-1 .number {
+  body main #management .container2 .card-2 .card-2-1 .number, body main .management .container2 .card-2 .card-2-1 .number {
     font-size: 20px;
     margin-top: 5%;
   }
